@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Testing app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App used for The Modern React Bootcamp (Hooks, Context, NextJS, Router) course
 
 ## Available Scripts
 
