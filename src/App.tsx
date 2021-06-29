@@ -1,12 +1,14 @@
-import { Component } from "react";
+import { Fragment, Component } from "react";
 
 /**
  * Imports components
  */
-// import RollDice from "./components/RollDice";
+//import RollDice from "./components/RollDice";
 //import Lottery from "./components/Lottery";
 //import CoinContainer from "./components/CoinContainer";
 //import BoxContainer from "./components/BoxContainer";
+//import Hangman from "./components/Hangman";
+import TodoList from "./components/TodoList";
 
 /**
  * Imports styling
@@ -18,7 +20,16 @@ import "./App.css";
  */
 class App extends Component {
   render() {
-    return <div className="App">Test app</div>;
+    return (
+      <Fragment>
+        {/* <div className="Hangman-App">
+          <Hangman />
+        </div> */}
+        <div>
+          <TodoList />
+        </div>
+      </Fragment>
+    );
   }
 }
 
