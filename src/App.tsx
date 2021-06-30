@@ -8,7 +8,10 @@ import { Fragment, Component } from "react";
 //import CoinContainer from "./components/CoinContainer";
 //import BoxContainer from "./components/BoxContainer";
 //import Hangman from "./components/Hangman";
-import TodoList from "./components/TodoList";
+//import TodoList from "./components/TodoList";
+//import ZenQuote from "./components/ZenQuote";
+//import GithubUserInfo from "./components/GithubUserInfo";
+//import Deck from "./components/Deck";
 
 /**
  * Imports styling
@@ -25,9 +28,7 @@ class App extends Component {
         {/* <div className="Hangman-App">
           <Hangman />
         </div> */}
-        <div>
-          <TodoList />
-        </div>
+        <div className="App">Test App</div>
       </Fragment>
     );
   }
